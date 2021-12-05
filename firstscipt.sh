@@ -1,3 +1,3 @@
 #!/bin/sh
-echo Hello World
+echo Hello World # This is also a comment
 #This is comment Section

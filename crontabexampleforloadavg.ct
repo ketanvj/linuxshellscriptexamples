@@ -1,0 +1,4 @@
+# Min   Hour    DoM     Month     DoW     Command
+   *    8-17     *        *       1-5     /home/centos/linuxshellscriptexamples/loadavg.sh
+
+# Create a cronjob that executes a shell script once per minute during the hours 8AM - 5PM Monday through Friday
