@@ -1,7 +1,7 @@
 #!/bin/bash
 # daily routine.
 
-DOCUMENTS="/home/centos/HummTraining"
+DOCUMENTS="/home/ec2-user"
 # if user enters 'day' show caldenar and date
 SHOWDAY=$1
 

@@ -9,8 +9,8 @@ add_a_user()
   COMMENTS=$@
   # Having shifted twice, the rest is now comments ... 
   echo "Adding user $USER ..."
-  echo useradd -c "$COMMENTS" $USER
-  echo passwd $USER $PASSWORD
+  useradd -m -c "$COMMENTS" $USER
+  echo "$USER:$PASSWORD" | chpasswd
   echo "Added user $USER ($COMMENTS) with password $PASSWORD"
 }
  
